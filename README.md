@@ -1,7 +1,7 @@
 # Toy-Stream-Cipher-Implementation
 Prerequisites: Install ZeroMQ and Libtomcrypt
 
-SHA-256 from Libtomcrypt is used as a deterministic PRNG function. To avoid repeating of the keys, the state is used. In this implementation, a counter is used to prpvide stateful implementation of teh PRNG.
+SHA-256 from Libtomcrypt is used as a deterministic PRNG function. To avoid repeating of the keys, the state is used. In this implementation, a counter is used to provide stateful implementation of the PRNG.
 
 Alice code:
 1. Alice reads "HW1PlaintextTest.txt"
